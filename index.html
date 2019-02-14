@@ -11,20 +11,23 @@
      .image-size {
     width: 500px;
     height: 300px;
+    margin-left: 30px;
   }
 
   body {
     background-color: #ff8800;
-    color: white
+    color: white; 
   }
   
   h1 {font-size: 70px}
   h2 {font-size: 45px}
-  h3 {font-size: 30px}
+  h3 {font-size: 30px; margin-left: 30px}
+
 
   p {
     font-size: 18px;
     line-height: 23px;
+    margin-left: 30px;
   }
 
   li {
@@ -34,22 +37,24 @@
   header {
     background-color:  #ff7300f1;
     color: #FFFFFF;
-    padding-top: 10px;
-    padding-left: 15px;
-  }
+    margin-top: -50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
 
   nav {
   background-color: #ff5e00b4);
   }
 
   nav ul {
-    margin: 0px;
+    margin: 50px;
     padding: 5px 5px 20px 30px;
   }
   
   nav li {
     display: inline;
-    margin-right: 40px;
+    margin-right: 100px;
     font-size: 20px
   }
 
@@ -58,19 +63,24 @@
     color: inherit;
   }
 
-  footer {
+  .footer {
     background-color:#110804f3;
-    padding: 1em;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
   }
+  
     </style>
   </head>
   
   
-  <body>
+  <body style="margin: 0px 0px 0px 0px;">
+
     <header>
       <h1> <a name="sākums"></a> Latvijas pērle Sigulda </h1>
-        
         <nav>
             <ul>
               <li><a href="">Sākums</a></li>
@@ -119,21 +129,23 @@
         <li> <a href=" http://cathouse.lv/landpage/lv/" target="_blank"> Bistro Kaķu māja<a></li>
       </ul>
       
-
       <p>Gribi uzzināt vairāk par Siguldu? Lasi
           <a href="http://tourism.sigulda.lv/" target="_blank">šeit</a></p>
 
-
       <p> <a href="#sākums">Uz sākumu</a></p>
+
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
 
 
     </main>
-    <br>
 
-    <footer>
-        <p>Informāciju sagatavoja: Jānis Ozols</p>
-        <p>Lapu izstrādāja: <a href="https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com."> &copy; SIA Firefox</a></p>
-    </footer> 
+    <div class="footer">
+        <h3>Sigulda aizrauj!</h3>
+    </div>
 
   </body>
 
